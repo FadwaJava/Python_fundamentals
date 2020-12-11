@@ -15,3 +15,7 @@ while n < 1002:
     numbers_1.append(n)
     n = n+2
 print(numbers_1)
+
+# list met range en een step
+numbers_2 = list(range(2, 1001, 2))
+print(numbers_2)
